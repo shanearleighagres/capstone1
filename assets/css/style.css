@@ -1,0 +1,135 @@
+html {
+	height: 100%;
+}
+
+
+#font-style {
+		font-family: 'Montserrat', sans-serif;
+}
+.landingpage {
+	background-image: url(../img/landing.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 900px;
+}
+
+.landingpage .dark-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 900px;
+	background: rgba(0,0,0,0.6);
+
+}
+
+.navbar {
+	border-bottom: green 3px solid;
+
+}
+
+#textcontent {
+	padding: 20%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.btn .btn-warning {
+	color:white;
+}
+
+
+/*home css*/
+
+.carousel-item {
+	height: 450px;
+}
+
+.carousel-image-1 {
+	background: url('../img/image2.jpg');
+	background-size: cover;
+}
+
+.carousel-image-2 {
+	background: url('../img/menu1a.jpg');
+	background-size: cover;
+}
+
+.carousel-image-3 {
+	background: url('../img/image3a.jpg');
+	background-size: cover;
+}
+
+.catering-content {
+	background: url('../img/catering.png');
+	background-repeat: repeat;
+}
+/*need to update html*/
+.bgdim {
+	background: rgba(0,0,0,0.4);
+}
+
+/*Menu CSS*/
+
+.img {
+	height: 200px;
+	width: 100%;
+
+}
+
+
+
+.menu-row1 {
+	height: 400px;
+}
+
+.menu-image1 {
+	background: url('../img/menu1.jpg');
+	background-size: cover;
+}
+
+.menu-image2 {
+	background: url('../img/menu2.jpg');
+	background-size: cover;
+}
+
+.menu-image3 {
+	background: url('../img/menu3.jpg');
+	background-size: cover;
+}
+
+.menu-image4 {
+	background: url('../img/menu4.jpg');
+	background-size: cover;
+}
+
+/*Contact*/
+
+.bgcontact {
+	background: url('../img/bgcontact.jpg');
+	background-size: cover;
+}
+
+/*About*/
+
+.header-about {
+	height: 200px;
+	background: url("../img/about.jpg");
+	background-attachment: fixed;
+	color: white;
+	background-repeat: no-repeat;
+	border-bottom: 1px #eee solid;
+	padding-top: 50px;
+
+}
+
+.img-philosphy {
+	height: 300px;
+}
+
+.bgstory {
+	background: url("../img/bgstory1.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
